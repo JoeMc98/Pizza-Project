@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Joe's Pizza Parlor</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="pizza.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+</head>
+<body id="body">
+
+<!-- heading -->
+
+    <div class="header">
+        <h1 class="joe">Joe's Pizza Parlor</h1>
+    </div>
+
+<!-- end heading -->
+<!-- pizza sizes -->
+    <div class="pizza">
+        <div class="sizeHead card-group">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="size-head">Pizza Size</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-block angleDown">
+                    <i class="fas fa-angle-down size-icon-rotate"></i>
+                </div>
+            </div>
+        </div>
+        <div class="size">
+            <form id="sizeForm">
+                <input type="radio" name="size" value="Personal Pizza"> Personal - $6<br>
+                <input type="radio" name="size" value="Medium Pizza"> Medium - $10<br>
+                <input type="radio" name="size" value="Large Pizza" checked> Large - $14<br>
+                <input type="radio" name="size" value="Extra Large Pizza"> Extra Large - $16
+            </form>
+        </div>
+    </div>
+
+<!-- end pizza sizes -->
+<!-- crust -->
+
+    <div class="pizza">
+        <div class="crustHead card-group">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="crust-head">Crust</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-block angleDown">
+                    <i class="fas fa-angle-down crust-icon-rotate"></i>
+                </div>
+            </div>
+        </div>
+        <div class="crust">
+            <form id="crustForm">
+                <input type="radio" name="crust" value="Plain Crust" checked> Plain<br>
+                <input type="radio" name="crust" value="Garlic Butter Crust"> Garlic Butter<br>
+                <input type="radio" name="crust" value="Cheese Stuffed Crust"> Cheese Stuffed<br>
+                <input type="radio" name="crust" value="Spicy Crust"> Spicy<br>
+                <input type="radio" name="crust" value="House Special Crust"> House Special<br>
+            </form>
+            <div>
+                <p><br>* Cheese Stuffed Crust $3 *</p>
+            </div>
+        </div>
+    </div>
+
+<!-- end crust -->
+<!-- cheese -->
+    <div class="pizza">
+        <div class="cheeseHead card-group">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="cheese-head">Cheese</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-block angleDown">
+                    <i class="fas fa-angle-down cheese-icon-rotate"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cheese">
+            <form id="cheeseForm">
+                <input type="radio" name="cheese" value="Regular Cheese" checked> Regular<br>
+                <input type="radio" name="cheese" value="No Cheese"> No Cheese<br>
+                <input type="radio" name="cheese" value="Extra Cheese"> Extra Cheese<br>
+            </form>
+            <div>
+                <p><br>* Extra Cheese $3 *</p>
+            </div>
+        </div>
+    </div>
+<!-- end cheese -->
+<!-- sauce -->
+    <div class="pizza">
+        <div class="sauceHead card-group">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="sauce-head">Sauce</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-block angleDown">
+                    <i class="fas fa-angle-down sauce-icon-rotate"></i>
+                </div>
+            </div>
+        </div>
+        <div class="sauce">
+            <form id="sauceForm">
+                <input type="radio" name="sauce" value="Marinara" checked> Marinara<br>
+                <input type="radio" name="sauce" value="White"> White<br>
+                <input type="radio" name="sauce" value="Barbeque"> Barbeque<br>
+                <input type="radio" name="sauce" value="No"> No Sauce<br>
+            </form>
+            <div>
+                <p><br>* All Sauces Free of Charge *</p>
+            </div>
+        </div>
+    </div>
+<!-- end sauce -->
+<!-- meats -->
+    <div class="pizza">
+        <div class="meatsHead card-group">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="meats-head">Meats</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-block angleDown">
+                    <i class="fas fa-angle-down meats-icon-rotate"></i>
+                </div>
+            </div>
+        </div>
+        <div class="meats">
+            <form id="meatsForm">
+                <input type="checkbox" name="meat" value="Pepperoni"> Pepperoni<br>
+                <input type="checkbox" name="meat" value="Sausage"> Sausage<br>
+                <input type="checkbox" name="meat" value="Canadian Bacon"> Canadian Bacon<br>
+                <input type="checkbox" name="meat" value="Ground Beef"> Ground Beef<br>
+                <input type="checkbox" name="meat" value="Anchovy"> Anchovy<br>
+                <input type="checkbox" name="meat" value="Chicken"> Chicken<br>
+            </form>
+            <div>
+                <p><br>* Your first selection is free with each selection after that an additional $1 *</p>
+            </div>
+        </div>
+    </div>
+<!-- end meats -->
+<!-- veggies -->
+    <div class="pizza">
+        <div class="veggiesHead card-group">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="veggies-head">Veggies</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-block angleDown">
+                    <i class="fas fa-angle-down veggies-icon-rotate"></i>
+                </div>
+            </div>
+        </div>
+        <div class="veggies">
+            <form id="veggiesForm">
+                <input type="checkbox" name="veggies" value="Tomatoes"> Tomatoes<br>
+                <input type="checkbox" name="veggies" value="Onions"> Onions<br>
+                <input type="checkbox" name="veggies" value="Olives"> Olives<br>
+                <input type="checkbox" name="veggies" value="Green Peppers"> Green Peppers<br>
+                <input type="checkbox" name="veggies" value="Mushrooms"> Mushrooms<br>
+                <input type="checkbox" name="veggies" value="Pineapple"> Pineapple<br>
+                <input type="checkbox" name="veggies" value="Spinach"> Spinach<br>
+                <input type="checkbox" name="veggies" value="Jalapeno"> Jalapeno<br>
+            </form>
+            <div>
+                <p><br>* Your first selection is free with each selection after that an additional $1 *</p>
+            </div>
+        </div>
+    </div>
+<!-- end veggies -->
+<!-- receipt -->
+    <div class="order">
+        <input class="vieworder" type="button" value="View Order">
+        <input class="cancel" type="button" value="Cancel">
+        <div class="receipt" id="receipt">
+            <h2 id="header">Receipt</h2>
+        <!-- size -->
+            <div class="card-group">
+                <div class="card" style="flex-grow:2">
+                    <div class="card-block">
+                        <p id="pizzaSize" class="receiptPizza"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p id="sizeCost" class="receiptCost"></p>
+                    </div>
+                </div>
+            </div>
+        <!-- crust -->
+            <div class="card-group">
+                <div class="card" style="flex-grow:2">
+                    <div class="card-block">
+                        <p id="pizzaCrust" class="receiptPizza"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p id="crustCost" class="receiptCost"></p>
+                    </div>
+                </div>
+            </div>
+        <!-- cheese -->
+            <div class="card-group">
+                <div class="card" style="flex-grow:2">
+                    <div class="card-block">
+                        <p id="pizzaCheese" class="receiptPizza"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p id="cheeseCost" class="receiptCost"></p>
+                    </div>
+                </div>
+            </div>
+        <!-- sauce -->
+            <div class="card-group">
+                <div class="card" style="flex-grow:2">
+                    <div class="card-block">
+                        <p id="pizzaSauce" class="receiptPizza"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p id="sauceCost" class="receiptCost"></p>
+                    </div>
+                </div>
+            </div>
+        <!-- meats -->
+            <div class="card-group">
+                <div class="card" style="flex-grow:2">
+                    <div class="card-block">
+                        <p id="pizzaMeats" class="receiptPizza"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p id="meatsCost" class="receiptCost"></p>
+                    </div>
+                </div>
+            </div>
+        <!-- veggies -->
+            <div class="card-group">
+                <div class="card" style="flex-grow:2">
+                    <div class="card-block">
+                        <p id="pizzaVeggies" class="receiptPizza"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p id="veggiesCost" class="receiptCost"></p>
+                    </div>
+                </div>
+            </div>
+        <!-- cost -->
+            <div class="card-group">
+                <div class="card" style="flex-grow:2">
+                    <div class="card-block">
+                        <p id="total" class="receiptPizza"></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <p id="totalCost" class="receiptCost"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- this button does nothing -->
+
+        <div>
+            <input class="placeorder" type="button" value="Place Order">
+        </div>
+    </div>
+
+<!-- end receipt -->
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="pizza.js"></script>
+
+</body>
+</html>

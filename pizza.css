@@ -1,0 +1,238 @@
+﻿/* body */
+
+body 
+{
+    text-align: center;
+    background-color: #fffa8a;
+    font-family: 'Copperplate Gothic', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+/* heading */
+
+.header 
+{
+    background-color: #ce0000;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #fffa8a;
+}
+
+/* heading text */
+
+.joe
+{
+    font-size: 50px;
+}
+
+/* properties for pizza selection sections */
+
+.pizza
+{
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    background-color: #ce0000;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid white
+}
+
+.size-head, .cheese-head, .crust-head, .sauce-head, .meats-head, .veggies-head
+{
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.sizeHead:hover, .cheeseHead:hover, .crustHead:hover,
+.sauceHead:hover, .meatsHead:hover, .veggiesHead:hover 
+{
+    text-shadow: 0 0 5px #fffa8a;
+    cursor: pointer;
+}
+
+/* used to rotate down arrow */
+
+.size-icon-rotate
+{
+    transition: .5s;
+}
+
+.crust-icon-rotate 
+{
+    transition: .5s;
+}
+
+.cheese-icon-rotate
+{
+    transition: .5s;
+}
+
+.sauce-icon-rotate 
+{
+    transition: .5s;
+}
+
+.meats-icon-rotate 
+{
+    transition: .5s;
+}
+
+.veggies-icon-rotate 
+{
+    transition: .5s;
+}
+
+.size-rotate
+{
+    transform: rotate(-180deg);
+    transition: .5s;
+}
+
+.crust-rotate 
+{
+    transform: rotate(-180deg);
+    transition: .5s;
+}
+
+.cheese-rotate
+{
+    transform: rotate(-180deg);
+    transition: .5s;
+}
+
+.sauce-rotate 
+{
+    transform: rotate(-180deg);
+    transition: .5s;
+}
+
+.meats-rotate 
+{
+    transform: rotate(-180deg);
+    transition: .5s;
+}
+
+.veggies-rotate 
+{
+    transform: rotate(-180deg);
+    transition: .5s;
+}
+    
+/* align selections in each section */
+
+#sizeForm, #crustForm, #cheeseForm, #sauceForm, #meatsForm, #veggiesForm 
+{
+    display: inline-block;
+    text-align: left;
+}
+
+/* receipt section */
+
+
+/* entire receipt */
+
+.order
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+/* view order and cancel buttons */
+
+.vieworder, .cancel 
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Copperplate Gothic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    width: 200px;
+    background-color: #ce0000;
+    color: #fffa8a;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+/* reciept section */
+
+.receipt 
+{
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: #ce0000;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid white;
+    overflow: auto;
+}
+
+/* down arrow placement */
+
+.angleDown 
+{
+    text-align: right;
+    margin-right: 3%;
+}
+
+/* card properties */
+
+.card
+{
+    background-color: #ce0000;
+    border-color: transparent;
+}
+
+/* display order */
+
+.receiptPizza 
+{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.receiptCost 
+{
+    text-align: right;
+    margin-right: 40px;
+}
+
+/* make total bigger */
+
+#total, #totalCost
+{
+    font-size: 30px;
+}
+
+/* underline "Receipt" */
+
+#header
+{
+    text-decoration: underline;
+}
+
+/* place order button */
+
+.placeorder 
+{
+    margin-top: 20px;
+    font-family: 'Copperplate Gothic','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    width: 200px;
+    background-color: #ce0000;
+    color: #fffa8a;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+/* hover over button properties */
+
+.placeorder:hover, .vieworder:hover, .cancel:hover 
+{
+    background-color: #e12301;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid gray;
+    cursor: pointer;
+}
